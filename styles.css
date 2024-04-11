@@ -100,7 +100,7 @@ body{
          color: hsl(228, 45%, 44%); 
         }
 
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 768px) and (max-width: 992px) {
          body{
             margin: 0;
             padding: 5rem;
@@ -116,7 +116,7 @@ body{
             display: flex;
             flex-direction: row;
             border-radius: 0.75rem;
-            max-width: 2100px;
+            max-width: 70vw;
 
          }
          .imagewrap{
@@ -141,4 +141,45 @@ body{
         font-size: 18px;
          color: hsl(228, 45%, 44%); 
         }
+         }
+         @media screen and (min-width: 993px) {
+            .container{
+               margin: 0 auto;
+               display: flex;
+               flex-direction: row;
+               border-radius: 0.75rem;
+               max-width: 60vw;
+            }
+            body{
+               margin: 0;
+               padding: 5rem;
+               font-family: "Montserrat", Arial, Helvetica, sans-serif;
+               background-color: hsl(319, 30%, 90%);
+               display: flex;
+               height: 100vh;
+               width: 100vw;
+               flex-direction: column;
+            }
+            .imagewrap{
+               border-radius: 0.75rem 0 0 0.75rem;
+               width: 50%;
+               height: 100%;
+               background-image: url(images/image-product-desktop.jpg);
+               background-size: cover;
+            }
+            .textwrap{
+             width: 50%;
+             padding: 1.2rem;
+             overflow: hidden;
+            }
+   .attribution { 
+      margin-top: 3rem;
+       font-size: 16px; 
+       text-align: center; 
+       font-weight: 500;
+   }
+       .attribution a {
+           font-size: 18px;
+            color: hsl(228, 45%, 44%); 
+           }
          }
