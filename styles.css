@@ -90,6 +90,9 @@ body{
     font-weight: 600;
     margin-top: 1rem;
  }
+ button:hover{
+   background-color: hsl(158, 36%, 30%);
+ }
 .attribution { 
     font-size: 12px; 
     text-align: center; 
@@ -100,7 +103,7 @@ body{
          color: hsl(228, 45%, 44%); 
         }
 
-        @media screen and (min-width: 768px) and (max-width: 1600px) {
+        @media screen and (min-width: 768px) {
          body{
             margin: 0;
             padding: 5rem;
@@ -116,8 +119,8 @@ body{
             display: flex;
             flex-direction: row;
             border-radius: 0.75rem;
-            max-width: 650px;
-            max-height: 350px;
+            max-width: 700px;
+            max-height: 550px;
 
          }
          .imagewrap{
@@ -129,11 +132,74 @@ body{
          }
          .textwrap{
           width: 50%;
-          padding: 1.2rem;
+          padding: 1rem;
           overflow: hidden;
+          margin: 0 0 0.2rem 0;
          }
+         
+ h1{
+   margin: 0;
+  font-weight: normal;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+}
+h2{
+   font-weight: 700;
+   color: hsl(212, 21%, 14%);
+   font-family: "Fraunces", Arial, Helvetica, sans-serif;
+   font-size: 1.2rem;
+   margin: 0;
+   margin-bottom: 0.8rem;
+}
+p{
+   line-height: 1.5;
+   font-size: 0.6rem;
+   font-weight: 500;
+   margin: 0 0 0.5rem 0;
+}
+
+.price{
+   padding: 0rem;
+   margin: 0;
+}
+.newprice{
+   color: hsl(158, 36%, 37%);
+   font-size: 1rem;
+   display: inline-block;
+   font-weight: 700;
+   font-family: "Fraunces", Arial, Helvetica, sans-serif;
+   margin-right: 0.5rem;
+}
+.oldprice{
+    text-decoration: line-through;
+    font-weight: 600;
+    display: inline-block;
+    font-size: 0.5rem;
+    color: hsl(228, 12%, 48%);
+}
+button{
+   display: block;
+   width: 100%;
+   margin: 0 auto;
+   border-radius: 0.2rem;
+   padding-top: 0.2rem;
+   border: none;
+   padding-bottom: 0.2rem;
+   background-color: hsl(158, 36%, 37%);
+   font-family: "Montserrat", Arial, Helvetica, sans-serif;
+   color: hsl(30, 38%, 92%);
+   font-size: 0.8rem;
+   font-weight: 600;
+   margin-top: 0.5rem;
+}
 .attribution { 
-   margin-top: 3rem;
+   font-size: 12px; 
+   text-align: center; 
+   font-weight: 500;
+}
+.attribution { 
+   margin-top: 2rem;
     font-size: 16px; 
     text-align: center; 
     font-weight: 500;
@@ -142,7 +208,7 @@ body{
         font-size: 18px;
          color: hsl(228, 45%, 44%); 
         }
-         }
+         }/*
          @media screen and (min-width: 1601px) {
             .container{
                margin: 0 auto;
