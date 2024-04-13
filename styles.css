@@ -209,7 +209,7 @@ button{
         font-size: 18px;
          color: hsl(228, 45%, 44%); 
         }
-         }/*
+         }
          @media screen and (min-width: 1601px) {
             .container{
                margin: 0 auto;
@@ -217,7 +217,6 @@ button{
                flex-direction: row;
                border-radius: 0.75rem;
                max-width: 50%;
-               max-height: 400px;
             }
             body{
                margin: 0;
